@@ -38,9 +38,10 @@ SQL Server, estruturado com tabelas e procedures/scripts para persistência de d
 1. Clone este repositório.
 2. Abra a solução no Visual Studio ou IDE compatível com .NET.
 3. Restaure os pacotes NuGet, compile e execute a aplicação.
-4. Fericiar path FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista\bin se a pasta roslyn existe
-5. Verificar se a pasta roslyn tem os arquivos corespondentes, se estiver vazia, comipar os arquivos de (packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest)
-6. Executar aplicação no Visual Studio.
+4. Verifiar path FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista\bin se a pasta roslyn existe
+5. Verificar se a pasta roslyn tem os arquivos corespondentes, se estiver vazia, copiar os arquivos de (packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest)
+6. Verificar se o banco de dados se encontra na pasta App_Data é para ter 2 arquivos (BancoDeDados e BancoDeDados_log)
+7. Executar aplicação no Visual Studio.
 
 
 ## Aprendizados
