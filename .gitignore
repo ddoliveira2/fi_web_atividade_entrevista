@@ -62,7 +62,3 @@ desktop.ini
 # Cobertura de testes
 coverage/
 coverage.*
-
-# Arquivos de banco de dados locais
-*.mdf
-*.ldf
