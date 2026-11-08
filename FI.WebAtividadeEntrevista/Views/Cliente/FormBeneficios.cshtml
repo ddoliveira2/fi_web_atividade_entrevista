@@ -1,0 +1,50 @@
+
+<header><meta charset="UTF-8"></header>
+<div id="modalAlterarIncluirBeneficio" class="modal fade">
+    <form id="formCadastroBeneficiarios" method="post">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+                    <h4 class="modal-title">Cadastrar Benefici&aacute;rio</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="Nome_Beneficiario">Nome:</label>
+                                <input required="required" type="text" class="form-control" id="Nome_Beneficiario" name="Nome_Beneficiario" placeholder="Ex.: Daniel" maxlength="50">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="CPF_Beneficiario">CPF:</label>
+                                <input required="required" type="text" class="form-control" id="CPF_Beneficiario" onblur="validarCpf(this);" name="CPF_Beneficiario" placeholder="000.000.000-00" maxlength="14">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-sm btn-success" style="margin-top: 25px;">Salvar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="table-responsive">
+                            <table id="tbListBeneficios" class="table align-middle">
+                                <thead>
+                                    <tr>
+                                        <th scope="col"><span>CPF</span></th>
+                                        <th scope="col"><span>Nome</span></th>
+                                        <th scope="col"><span>A&ccedil;&otilde;es</span></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="listaBeneficiarios">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

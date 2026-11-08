@@ -1,0 +1,68 @@
+
+# Compilação
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rtifacts/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+*.bak
+*.old
+*.cache
+
+# Arquivos gerados
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.pch
+*.exp
+*.lib
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Testes
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Publicação
+publish/
+PublishProfiles/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Cobertura de testes
+coverage/
+coverage.*
+
+# Arquivos de banco de dados locais
+*.mdf
+*.ldf
